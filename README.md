@@ -1,7 +1,13 @@
-# Frequency Analysis of Words
+# Описание
 
-[TODO. There will be project description]
+Скрипт выводит список из 10 самых популярных слов поданного на вход текста.
 
-# Project Goals
+# Использование
+Для работы программы потребуется файл с текстом, например можно взять роман <a href="https://vk.com/doc177037240_362388366?hash=233891b1e5df798d4c&dl=6b036b4ba287269a69">Л.Н. Толстого "Война и Мир(Том2)"</a>.
+
+Перевести скачанный файл в кодировку UTF-8, например с помощью Notepad++.
+
+С помощью команды <p><pre><code>python lang_frequency.py</code></pre><p> запустить скрипт и указать путь до сохраненного файла. Затем 
+скрипт отобразит список из 10 самых популярных слов в данном тексте.
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
