@@ -6,8 +6,8 @@ def load_data(filepath):
     if not os.path.exists(filepath):
         return None
     with open(filepath,'r', encoding='utf-8') as file:
-        data = file.read()
-        return data	
+        text = file.read()
+        return text	
 
 
 def get_most_frequent_words(text):
@@ -29,4 +29,4 @@ if __name__ == '__main__':
     else:    
         frequency_words = get_most_frequent_words(text)
         for word, frequency in sorted(frequency_words.items(), key=lambda val:val[1], reverse=True)[:10]:
-            print ("{} {}".format(word, frequency))    
+            print ("{} {}".format(word, frequency))
